@@ -1,0 +1,31 @@
+{{!-- Formulário --}}
+<form action="/cadastrar" method="POST">
+    <img src="imagens/icone.png">
+
+    <input type="text" placeholder="Nome" name="nome" class="form-control">
+    <input type="text" placeholder="Idade" name="idade" class="form-control">
+    <input type="submit" value="Cadastrar" class="btn btn-primary">
+</form>
+
+{{!-- Tabela --}}
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Selecionar</th>
+        </tr>
+    </thead>
+
+    <tbody>
+
+        {{#each dados}}
+        <tr>
+            <td>{{nome}}</td>
+            <td>{{idade}}</td>
+            <td><a href="selecionar/{{id}}">Selecionar</a></td>
+        </tr>
+        {{/each}}
+
+    </tbody>
+</table>

@@ -1,0 +1,13 @@
+form{
+    width: 500px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.btnEditar{
+    margin-top: 10px;
+}
