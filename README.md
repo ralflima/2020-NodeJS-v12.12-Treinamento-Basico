@@ -23,6 +23,7 @@
    + Módulo http;
    + Manipulando arquivos HTML, CSS e imagens;
    + Express;
+   + Criando rotas;
    + Express-handlebars;
    + Body-parser;
    + Node-fetch;
