@@ -21,6 +21,7 @@
    + Introdução ao Node.js;
    + Criando e utilizando módulos;
    + Módulo http;
+   + Uilizando o Nodemon;
    + Manipulando arquivos HTML, CSS e imagens;
    + Express;
    + Criando rotas;
